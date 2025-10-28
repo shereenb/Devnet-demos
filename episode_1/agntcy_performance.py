@@ -140,53 +140,6 @@ class PerformanceComparison:
             "result_preview": result[:100] + "..." if len(result) > 100 else result
         }
     
-    async def agntcy_approach(self, task: str) -> Dict[str, Any]:
-        """AGNTCY multi-agent approach"""
-        print("\n🌐 AGNTCY APPROACH: Multi-agent coordination")
-        start_time = time.time()
-        
-        # Initialize specialized agents
-        strategic_agent = AGNTCYAgent(
-            "StrategicPlanning", 
-            ["market_analysis", "strategic_frameworks", "risk_assessment"],
-            "Specialized in strategic business planning"
-        )
-        
-        research_agent = AGNTCYAgent(
-            "MarketResearch",
-            ["data_synthesis", "competitive_analysis", "market_intelligence"], 
-            "Expert in market research and data analysis"
-        )
-        
-        implementation_agent = AGNTCYAgent(
-            "Implementation",
-            ["roadmap_planning", "resource_allocation", "execution_strategy"],
-            "Focused on implementation and execution planning"
-        )
-        
-        # Phase 1: Strategic Analysis
-        print("   🧠 Phase 1: Strategic analysis...")
-        strategic_result = await self._strategic_analysis(task, strategic_agent)
-        
-        # Phase 2: Market Research  
-        print("   📊 Phase 2: Market research...")
-        research_result = await self._market_research(task, research_agent)
-        
-        # Phase 3: Implementation Planning
-        print("   🛠️  Phase 3: Implementation planning...")
-        impl_result = await self._implementation_planning(task, implementation_agent)
-        
-        # Agent coordination simulation
-        await asyncio.sleep(0.1)  # Coordination overhead
-        
-        execution_time = time.time() - start_time
-        total_tokens = strategic_result["tokens"] + research_result["tokens"] + impl_result["tokens"]
-        
-        print(f"   ⏱️  Completed in {execution_time:.2f}s with 3 specialized agents")
-        
-        # Integrated result
-        integrated_result = f"""AGNTCY Multi-Agent Analysis:
-
     async def mcp_approach(self, task: str) -> Dict[str, Any]:
         """MCP approach with enhanced context"""
         print("\n📋 MCP APPROACH: Enhanced context management")
