@@ -19,7 +19,7 @@ Youtube video available here: https://youtu.be/VmS-aBIsmN8
 
 This episode demonstrates persistent memory systems for network operations agents. Unlike traditional LLM agents that lose context after each session, these agents maintain memory across restarts, enabling them to track devices, correlate events, and learn from experience.
 
-**What You'll Learn & Implement:**
+What You'll Learn & Implement:
 * Understand why persistent memory solves the context window bottleneck and reduces costs
 * Learn to build agents with SQLite-based memory that persists across restarts (persistent_agent.py)
 * Discover how self-learning agents automatically acquire new capabilities from experience (self_registering_agent.py)
