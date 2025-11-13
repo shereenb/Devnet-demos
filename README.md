@@ -26,5 +26,5 @@ What You'll Learn & Implement:
 * See performance improvements: 100% accuracy vs 40% with traditional context windows (memory_benchmark.py)
 * Explore production-ready AGNTCY implementation with CORTO, LONGO, and A2A protocols (agntcy_memory_implementation.py)
 
-  Episode 2 demonstrates basic persistent memory, proves 2.5x performance gains through benchmarking, shows self-learning capabilities, and concludes with a production AGNTCY system using real SDK integration.
+  Episode 2 demonstrates basic persistent memory, proves performance improvement through benchmarking, shows self-learning capabilities, and concludes with a production AGNTCY system using SDK integration.
 Youtube video available here:
