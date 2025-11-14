@@ -17,6 +17,4 @@ __pycache__/
 langchain_env/
 venv/
 env/
-
-# Claude Code settings (local workspace)
 .claude/
