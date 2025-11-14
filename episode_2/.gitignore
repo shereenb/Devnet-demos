@@ -1,11 +1,10 @@
-# Database files (generated at runtime)
+# Database files
 *.db
 
-# Internal documentation 
-VIDEO_DEMO_SCRIPT.md
-QUICK_START.md
+# Documentation
+*.md
 
-# Python cache
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -14,7 +13,10 @@ __pycache__/
 .env
 
 # Virtual environments
-langchain_env/
 venv/
 env/
-.claude/
+
+# IDE and editor files
+.*/
+.vscode/
+.idea/
