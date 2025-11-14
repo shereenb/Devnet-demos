@@ -1,5 +1,5 @@
 #!/bin/bash
-# Clean up all database files before recording demo
+# Clean up all database files 
 
 echo "Removing all .db files..."
 rm -f *.db
