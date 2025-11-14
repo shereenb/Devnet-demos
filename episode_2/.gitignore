@@ -1,7 +1,7 @@
 # Database files (generated at runtime)
 *.db
 
-# Internal documentation (not for public)
+# Internal documentation 
 VIDEO_DEMO_SCRIPT.md
 QUICK_START.md
 
@@ -17,6 +17,4 @@ __pycache__/
 langchain_env/
 venv/
 env/
-
-# Claude Code settings (local workspace)
 .claude/
