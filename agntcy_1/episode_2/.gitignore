@@ -1,0 +1,22 @@
+# Database files (generated at runtime)
+*.db
+
+# Internal documentation (not for public)
+VIDEO_DEMO_SCRIPT.md
+QUICK_START.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+
+# Virtual environments
+langchain_env/
+venv/
+env/
+
+# Claude Code settings (local workspace)
+.claude/
