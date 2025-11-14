@@ -27,4 +27,4 @@ What You'll Learn & Implement:
 * Explore production-ready AGNTCY implementation with CORTO, LONGO, and A2A protocols (agntcy_memory_implementation.py)
 
   Episode 2 demonstrates basic persistent memory, proves performance improvement through benchmarking, shows self-learning capabilities, and concludes with a production AGNTCY system using SDK integration.
-Youtube video available here:
+Youtube video available here: https://youtu.be/S5ujg-zq65E
