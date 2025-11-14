@@ -12,7 +12,7 @@ What You'll Learn & Implement:
 
 
 
-Episode 1 contains a simple and multi agent workflow example. Followed by enhanced performance using AGNTCY.
+Episode 1 contains a simple and multi agent workflow example. Followed by enhanced performance using AGNTCY. AGNTCY Project Github repo: https://github.com/agntcy
 Youtube video available here: https://youtu.be/VmS-aBIsmN8
 
 ## Episode 2
@@ -24,7 +24,7 @@ What You'll Learn & Implement:
 * Learn to build agents with SQLite-based memory that persists across restarts (persistent_agent.py)
 * Discover how self-learning agents automatically acquire new capabilities from experience (self_registering_agent.py)
 * See performance improvements: 100% accuracy vs 40% with traditional context windows (memory_benchmark.py)
-* Explore production-ready AGNTCY implementation with CORTO, LONGO, and A2A protocols (agntcy_memory_implementation.py)
+* Explore production-ready AGNTCY implementation with CORTO, LONGO, and A2A protocols (agntcy_memory_implementation.py) More info on CORTO and LONGO can be found on the coffeeAgntcy Github repo: https://github.com/agntcy/coffeeAgntcy/tree/main
 
   Episode 2 demonstrates basic persistent memory, proves performance improvement through benchmarking, shows self-learning capabilities, and concludes with a production AGNTCY system using SDK integration.
 Youtube video available here: https://youtu.be/S5ujg-zq65E
